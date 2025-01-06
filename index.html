@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .box {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+
+            transition-property: background-color, border-radius;
+            transition-duration: 1s;
+            transition-delay: 0.5s;
+            transition-timing-function: ease-in;/*cubic-bezier(estudar)*/
+
+        }
+
+        .box:hover {
+            background-color: brown;
+            border-radius: 50%;
+        }
+
+        
+
+        img{
+            display: block;
+            width: 200px;
+            height: 200px;
+
+           /* transform: translate(100px, 100px);*/
+           /*transform: scaley(2);*/
+           /*transform: rotate(45deg);*/
+           /*transform: skew(20deg);*/
+        }
+
+
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+</body>
+</html>
